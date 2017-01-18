@@ -1,0 +1,269 @@
+html{
+	margin:0px;
+	padding:0px;
+}
+body{
+background:#655791;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0px;
+	padding:0px;
+}
+#container{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.boxtext{
+	font: 300 1.0em/1.0em 'Lato';
+		width:80%;
+	margin-left:10%;
+}
+a{
+	display:block;
+	text-align:center;
+	color:black;
+	text-decoration:none;
+}
+.offer{
+	display:inline-block;
+	background-color:white;
+	font: 700 1.5em/1.5em 'Lato';
+	position:absolute;
+	width:200px;
+	height:50px;
+		width:100%;
+margin:0px;
+padding:0px;
+	top:350px;
+			-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+.frontpage{
+	position:absolute;
+	right:550px;
+}
+.offerdiv{
+	border-right:1px solid black;
+border-left:1px solid black;
+	position:absolute;
+	left:-30%;
+}
+.projectdiv{
+	border-right:1px solid black;
+	border-left:1px solid black;
+	position:absolute;
+	right:-30%;
+}
+li{
+	margin-right:30px;
+	margin-left:30px;
+	display:inline-block;
+}
+ul{
+	width:250px;
+	position:absolute;
+	left:50%;
+	margin-left:-125px;
+	top:-15px;
+}
+.question{
+	position:absolute;
+	top:10%;
+	left:50%;
+	margin-left:-350px;
+	width:545px;
+	color:white;
+	font: 400 5em/1.5em 'Changa One';
+}
+.profiles{
+	top:55%;
+	float:left;
+	padding:10px;
+	font: 300 1.5em/1.5em 'Lato';
+	text-align:center;
+	margin-left:-1.85714285714286%;
+	margin-bottom:50px;
+	width:500px;
+	height:300px;
+	position:relative;
+	background-color:white;
+	border-radius:5px;
+		-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+#profilebox{
+	top:450px;
+	width:510px;
+	float:left;
+	left:50%;
+	position:relative;
+	margin-left:-240px;
+}
+.social{
+	position:absolute;
+	left:40%;
+	top:30%;
+	margin:0px;
+	padding:0px;
+		-webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+	transition:.5s ease-in-out;
+}
+.social:hover{
+	-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+.social2{
+	position:absolute;
+	left:40%;
+	top:40%;
+	margin:0px;
+	padding:0px;
+	-webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+		transition:.5s ease-in-out;
+}
+.social2:hover{
+	-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+.social3:hover{
+	-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+.social4:hover{
+	-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+.social3{
+	position:absolute;
+	left:40%;
+	top:62.5%;
+	margin:0px;
+	padding:0px;
+		-webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+		transition:.5s ease-in-out;
+}
+.social4{
+	position:absolute;
+	left:40%;
+	top:72.5%;
+	margin:0px;
+	padding:0px;
+		-webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+		transition:.5s ease-in-out;
+}
+@media only screen and (max-width:910px) {
+	.frontpage{
+		right:375px;
+	}
+}
+@media only screen and (max-width:800px) {
+	.question{
+		margin-left:-250px;
+	}
+}
+@media only screen and (max-width:625px) {
+	.question{
+		margin-left:-210px;
+		font: 400 4em/1.5em 'Changa One';
+		width:425px;
+	}
+	#profilebox{
+		width:410px;
+	}
+	.profiles{
+		width:400px;
+		margin-left:50px;
+	}
+	.projectdiv,{
+	border-right:0px;
+
+}
+ul{
+	width:220px;
+}
+	.frontpage{
+		right:75px;
+	}
+
+}
+@media only screen and (max-width:575px) {
+	.question{
+		margin-left:-170px;
+		font: 400 3em/1.5em 'Changa One';
+		width:325px;
+	}
+	#profilebox{
+		overflow:hidden;
+			top:450px;
+	left:0%;
+	position:relative;
+	margin-left:0px;
+		width:100%;
+		float:none;
+	}
+	.profiles{
+		border-radius:0px;
+		width:100%;
+		margin-left:80px;
+		height:425px;
+		margin-left:0px;
+		float:none;
+	}
+	.projectdiv,.offerdiv{
+		border-right:0px;
+	border-left:0px;
+}
+ul{
+	width:180px;
+}
+	.frontpage{
+		top:-75px;
+		right:55px;
+	}
+
+}
+@media only screen and (max-width:375px) {
+		.question{
+		margin-left:-98.5px;
+		font: 400 2.4em/1.5em 'Changa One';
+		width:200px;
+	}
+	.offer{
+	font: 700 1.0em/1.5em 'Lato';
+}
+.offerdiv{
+left:-2%;
+	}
+	.projectdiv{
+		width:125px;
+right:-14%;
+	}
+	.boxtext{
+	font: 300 0.8em/1.0em 'Lato';
+		width:80%;
+	margin-left:10%;
+}
+}

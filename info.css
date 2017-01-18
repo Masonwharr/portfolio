@@ -1,0 +1,536 @@
+			html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#skillsdiv1 {
+	display: block;
+	float: left;
+	position: relative;
+	left: 50%;
+	width: 700px;
+	margin-left: -400px;
+	min-width: 320px;
+}
+#skillsdiv2 {
+	display: none;
+	float: left;
+	position: relative;
+	left: 55.5%;
+	width: 500px;
+	margin-left: -350px;
+	min-width: 320px;
+}
+#fixer-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	top: 950px;
+}
+#container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #8D424A;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#top {
+	cursor:pointer;
+	color: white;
+	text-decoration: none;
+}
+.hirelink {
+	text-decoration: none;
+	color: black;
+}
+.fullpagediv {
+	background-color: mediumslateblue;
+	width: 100%;
+	height: 800px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contentholder {
+	position: absolute;
+	background-color: white;
+	top: 50px;
+	width: 100%;
+	height: 500px;
+	border: 10px solid lightgrey;
+	border-left: 0px;
+	border-right: 0px;
+}
+.container {
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#skills {
+	position: absolute;
+	clear: both;
+	display: inline-block;
+	left: 5%;
+	top: 750px;
+	float: left;
+	border-radius: 5px;
+	width: 700px;
+	height: 175px;
+	margin: 10px;
+}
+#skills2 {
+	position: absolute;
+	clear: both;
+	display: inline-block;
+	left: 18%;
+	top: 800px;
+	float: left;
+	border-radius: 5px;
+	width: 500px;
+	height: 175px;
+	margin: 10px;
+}
+.skill-one {
+	padding: 10px;
+	margin: 0px;
+}
+.skill-two {
+	padding: 10px;
+	left: 150px;
+	margin: 0px;
+}
+.skill-three {
+	padding: 10px;
+	left: 300px;
+	margin: 0px;
+}
+.skill-four {
+	padding: 10px;
+	left: 450px;
+	margin: 0px;
+}
+.languages {
+	position: absolute;
+	font: 200 1.0em/1.5em 'Muli';
+	top: 35%;
+	padding: 20px;
+}
+.hiredesc {
+	font: 200 1.5em/1.5em 'Muli';
+}
+.reviews {
+	position: absolute;
+	top: 900px;
+	background-color: gainsboro;
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nav {
+	text-align: center;
+	list-style-type: none;
+	display: block;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin: 0px;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #2b3636;
+	z-index: 1;
+	border-bottom: 2px solid #222222;
+}
+ul {
+	width: 100%;
+	list-style-type: none;
+	margin-left: -3.70096225018505%;
+}
+.link {
+	position: absolute;
+	left: 50%;
+	font: 300 1.5em/1.5em 'Passion One';
+	display: inline-block;
+	margin: 0px;
+	border-bottom: 5px solid black;
+	border-radius: 5px;
+}
+.name {
+	position: relative;
+	margin-left: -20%;
+	right: 25%;
+	display: inline-block;
+	font: 300 1.5em/1.5em 'Passion One';
+	border-bottom: 5px solid black;
+	border-radius: 5px;
+}
+.linkart {
+	position: absolute;
+	left: 50%;
+	display: inline-block;
+	font: 300 1.5em/1.5em 'Passion One';
+	margin-left: -108px;
+	border-bottom: 5px solid black;
+	border-radius: 5px;
+}
+.border {
+	left: 45.5%;
+	top: 52px;
+	position: absolute;
+	width: 100px;
+	border-bottom: 5px solid black;
+	border-radius: 5px;
+	padding: 0px;
+}
+.whatican {
+	position: relative;
+	top: 15%;
+	font: 700 3em/1.5em 'Lato';
+}
+#menu {
+	position: absolute;
+	width: 200px;
+	top: 3700px;
+	float: left;
+	left: 50%;
+	margin-left: -75px;
+}
+.menutext {
+	font-family: 'Muli';
+	position: relative;
+	color: white;
+	left: 20px;
+}
+.circleone {
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	top: 20px;
+	position: absolute;
+}
+.pointerdiv {
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -25px;
+	cursor:pointer;
+	animation-iteration-count: infinite;
+	-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.pointerdiv:before{
+	position:relative;
+	top:20px;
+	font: 200 1.5em/1.5em 'Muli';
+	content:"Click for the story";
+	margin-left:-60px;
+}
+.pointer{
+	width: 50px;
+	height: 50px;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	transform: rotate(135deg);
+	border-radius: 5px;
+}
+.pointerbtn {
+	background-color:transparent;
+	outline:none;
+	border:none;
+}
+.frontpagelink {
+	color: white;
+	text-decoration: none;
+}
+
+.school {
+	position: relative;
+	background-color: white;
+	display: block;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	height: 550px;
+	float: left;
+	margin-bottom: 50px;
+	border: 10px solid lightgrey;
+	border-left: 0px;
+	border-right: 0px;
+}
+.schooldesc {
+	width: 80%;
+	margin-left: 8%;
+	font: 200 1.5em/1.5em 'Muli';
+}
+.schoolstory {
+	width: 80%;
+	margin-left: 8%;
+	font: 300 3.0em/1.5em 'Muli';
+}
+.photoshop {
+	clear: both;
+	padding: 20px;
+	position: relative;
+	background-color: white;
+	display: block;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	height: 550px;
+	float: left;
+	margin-bottom: 50px;
+	border: 10px solid lightgrey;
+	border-left: 0px;
+	border-right: 0px;
+}
+.photoshopdesc {
+	width: 80%;
+	margin-left: 8%;
+	font: 200 1.5em/1.5em 'Muli';
+}
+.photoshopstory {
+	width: 80%;
+	margin-left: 8%;
+	font: 300 3.0em/1.5em 'Muli';
+}
+.class {
+	clear: both;
+	padding: 20px;
+	position: relative;
+	background-color: white;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 550px;
+	float: left;
+	margin-bottom: 50px;
+	border: 10px solid lightgrey;
+	border-left: 0px;
+	border-right: 0px;
+}
+.classdesc {
+	width: 80%;
+	margin-left: 8%;
+	font: 200 1.5em/1.5em 'Muli';
+}
+.classstory {
+	width: 80%;
+	margin-left: 8%;
+	font: 300 3.0em/1.5em 'Muli';
+}
+.thinkful {
+	clear: both;
+	padding: 20px;
+	position: relative;
+	background-color: white;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	float: left;
+	margin-bottom: 50px;
+	border: 10px solid lightgrey;
+	border-left: 0px;
+	border-right: 0px;
+}
+.thinkfulstory {
+	width: 80%;
+	margin-left: 8%;
+	font: 300 3.0em/1.5em 'Muli';
+}
+.thinkfuldesc {
+	width: 80%;
+	margin-left: 8%;
+	font: 200 1.5em/1.5em 'Muli';
+}
+.storyimgs2 {
+	margin-left: -2%;
+}
+@media only screen and (max-width: 900px) {
+	#skillsdiv2 {
+		display: block;
+	}
+	.contentholder {
+		height: 700px;
+	}
+	@media only screen and (max-width: 700px) {
+		#skillsdiv2 {
+			display: block;
+			left: 50.5%;
+		}
+		.contentholder {
+			height: 700px;
+		}
+		.box {
+			height: 750px;
+		}
+		.box2 {
+			height: 850px;
+		}
+		#menu {
+			margin-left: -100px;
+			top: 4550px;
+		}
+		.class {
+			height: 800px;
+		}
+		.whatican {
+			top: 10%;
+		}
+	}
+		@media only screen and (max-width: 550px) {
+		#skillsdiv2 {
+			display: block;
+			left: 50.5%;
+		}
+		.contentholder {
+			height: 700px;
+		}
+		.box {
+			height: 750px;
+		}
+		.box2 {
+			height: 850px;
+		}
+		#menu {
+			margin-left: -100px;
+			top: 4550px;
+		}
+		.class {
+			height: 800px;
+		}
+		.whatican {
+			top: 10%;
+		}
+		.pointerdiv{
+			top:625px;
+		}
+	}
+	@media only screen and (max-width: 450px) {
+		.contentholder {
+			height: 750px;
+		}
+		.box {
+			height: 1050px;
+		}
+		.box2 {
+			height: 1150px;
+		}
+		#menu {
+			margin-left: -115px;
+			top: 5650px;
+		}
+		#skillsdiv2 {
+			left: 49.5%;
+		}
+		.whatican {
+			position: relative;
+			top: -7%;
+			font: 700 3em/1.5em 'Lato';
+		}
+		.languages {
+			top: 15%;
+		}
+		.classdesc {
+			width: 80%;
+			margin-left: 7%;
+			font: 200 1.5em/1.5em 'Muli';
+		}
+		.classstory {
+			width: 80%;
+			margin-left: 5%;
+			font: 300 3.0em/1.5em 'Muli';
+		}
+		.thinkfulstory {
+			width: 80%;
+			margin-left: 2%;
+			font: 300 3.0em/1.5em 'Muli';
+		}
+		.thinkfuldesc {
+			width: 80%;
+			margin-left: 2%;
+			font: 200 1.5em/1.5em 'Muli';
+		}
+		.storyimgs {
+			margin-left: -12%;
+		}
+		.storyimgs2 {
+			margin-left: -12%;
+		}
+		@media only screen and (max-width: 350px) {
+			.contentholder {
+				height: 850px;
+			}
+			.box {
+				height: 1200px;
+			}
+			.box2 {
+				height: 1400px;
+			}
+			#menu {
+				margin-left: -115px;
+				top: 5650px;
+			}
+			.whatican {
+				position: relative;
+				top: -7%;
+				font: 700 3em/1.5em 'Lato';
+			}
+			.languages {
+				top: 15%;
+				font: 200 0.95em/1.5em 'Muli';
+			}
+			.classdesc {
+				width: 70%;
+				font: 200 1.5em/1.5em 'Muli';
+			}
+			.classstory {
+				width: 70%;
+				font: 300 2.4em/1.5em 'Muli';
+			}
+			.thinkfulstory {
+				width: 70%;
+				font: 300 2.2em/1.5em 'Muli';
+			}
+			.thinkfuldesc {
+				width: 70%;
+				margin-left: 7%;
+				font: 200 1.5em/1.5em 'Muli';
+			}
+			.photoshopdesc {
+				width: 70%;
+				font: 200 1.5em/1.5em 'Muli';
+			}
+			.photoshopstory {
+				width: 70%;
+				font: 300 2.5em/1.5em 'Muli';
+			}
+			.schooldesc {
+				width: 70%;
+				font: 200 1.5em/1.5em 'Muli';
+			}
+			.schoolstory {
+				width: 70%;
+				font: 300 2.5em/1.5em 'Muli';
+			}
+			#menu {
+				margin-left: -115px;
+				top: 6350px;
+			}
+			.pointerdiv{
+				top:750px;
+			}

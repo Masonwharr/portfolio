@@ -1,0 +1,589 @@
+html {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+body{
+	height:100%;
+	width:100%;
+	background-color:gainsboro;
+	background-image:url(mountains.jpg);
+	background-size:100% 105%;
+	background-repeat:no-repeat;
+	overflow-x: scroll;
+	margin:0;
+	padding:0;
+}
+.container{
+	max-width:1400px;
+	margin:0px;
+	padding:0px;
+}
+.nav{
+	position:absolute;
+	top:10%;
+	left:11.26754385964912%;
+	margin:0;
+}
+
+li{
+	display:inline-block;
+	margin-right:100px;
+	margin-left:100px;
+	padding:10px;
+}
+
+a{
+color:white;
+text-decoration:none;
+font-size:25px;
+font: 300 1.5em/1.5em 'Lato';
+}
+
+#slogan{
+	color:white;
+	font-size:100px;
+	font: 700 4em/1.5em 'Lato';
+	position:relative;
+	top:25%;
+	left:65%;
+	width:300px;
+	height:500px;
+	margin:5px;
+}
+.notbold{
+	font: 200 1em/1.5em 'Lato';
+	margin:0;
+}
+.italicize{
+	font-style:italic;
+	margin:0;
+}
+.description{
+	font: 300 1.2em/1.5em 'Josefin Sans';
+	color:white;
+	position:absolute;
+	top:40%;
+	left:10%;
+	width:650px;
+}
+#icon{
+	margin:0;
+	padding:10px;
+	position:absolute;
+	left:25px;
+	top:50px;
+}
+.underline{
+	position:absolute;
+	top:10%;
+	left:29.43859649122807%;
+	display:inline-block;
+	height:10px;
+	width:20px;
+	border:solid white 1px;
+	border-radius:5px;
+}
+.underline2{
+	position:absolute;
+	top:10%;
+	left:57%;
+	display:inline-block;
+	height:10px;
+	width:20px;
+	border:solid white 1px;
+	border-radius:5px;
+}
+.underline3{
+	position:absolute;
+	top:10%;
+	left:81.42348649122807%;
+	display:inline-block;
+	height:10px;
+	width:20px;
+	border:solid white 1px;
+	border-radius:5px;
+}
+
+.skills{
+	position:absolute;
+	display:inline-block;
+	left:10%;
+	top:75%;
+	background-color:
+	border-radius:5px;
+width:700px;
+height:175px;
+margin:0px;
+}
+.skill-one{
+	padding:10px;
+	margin:0px;
+}
+.skill-two{
+	padding:10px;
+	left:150px;
+	margin:0px;
+}
+.skill-three{
+	padding:10px;
+	left:300px;
+	margin:0px;
+}
+.skill-four{
+	padding:10px;
+	left:450px;
+	margin:0px;
+}
+.welcomediv{
+	position:absolute;
+	top:25%;
+	left:10%;
+	margin:10px;
+	padding:10px;
+}
+.welcome{
+	font-family:'Bowlby One SC';
+	font-size:80px;
+	color:white;
+	margin:0px;
+}
+.around{
+	position:relative;
+	left:140px;
+	margin:0px;
+	font: 300 1.2em/1.5em 'Josefin Sans';
+	color:white;
+}
+.box{
+	margin:0px;
+	padding:0px;
+	max-width:1368px;
+}
+.underline4{
+	position:absolute;
+	top:2%;
+	display:none;
+	height:10px;
+	width:20px;
+	border:solid white 1px;
+	border-radius:5px;
+
+}
+.underline5{
+	position:absolute;
+	top:2%;
+	display:none;
+	height:10px;
+	width:20px;
+	border:solid white 1px;
+	border-radius:5px;
+
+}
+.underline6{
+	position:absolute;
+	top:2%;
+	display:none;
+	height:10px;
+	width:20px;
+	border:solid white 1px;
+	border-radius:5px;
+
+}
+@media only screen and (min-width:1201px){
+		  	.underline,.underline2,.underline3{
+	display:none;
+}
+	.underline4{
+		display:inline-block;
+	left:19.73859649122807%;
+}
+.underline5{
+	display:inline-block;
+	left:49%;
+}
+.underline6{
+	display:inline-block;
+	left:75.42348649122807%;
+}
+
+	a{
+		font-size:18px;
+	}
+	.nav{
+		width:1100px;
+		display:flex;
+		position:absolute;
+		left:2.26754385964912%;
+	top:10%;
+	margin:0;
+}
+.description{
+	font: 300 1.5em/1.5em 'Josefin Sans';
+}
+}
+
+@media only screen and (min-width:1151px) and (max-width: 1200px){
+	  	.underline,.underline2,.underline3{
+	display:none;
+}
+	.underline4{
+		display:inline-block;
+	left:21.73859649122807%;
+}
+.underline5{
+	display:inline-block;
+	left:54%;
+}
+.underline6{
+	display:inline-block;
+	left:82.42348649122807%;
+}
+	a{
+		font-size:18px;
+	}
+	.nav{
+		width:1000px;
+		display:flex;
+		position:absolute;
+		left:2.26754385964912%;
+	top:10%;
+	margin:0;
+}
+#slogan{
+	left:70%;
+}
+.description{
+	font: 300 1.5em/1.5em 'Josefin Sans';
+}
+
+}
+@media only screen and (min-width:1051px) and (max-width: 1150px) {
+	  	.underline,.underline2,.underline3{
+	display:none;
+}
+	.underline4{
+		display:inline-block;
+	left:21.73859649122807%;
+}
+.underline5{
+	display:inline-block;
+	left:54%;
+}
+.underline6{
+	display:inline-block;
+	left:82.42348649122807%;
+}
+
+	a{
+		font-size:18px;
+	}
+	.nav{
+		width:1000px;
+		display:flex;
+		position:absolute;
+	top:10%;
+	margin:0;
+	left:2.26754385964912%;
+}
+.icon{
+	left:5px;
+}
+#slogan{
+	font: 700 2.8em/1.5em 'Lato';
+	top:40%;
+	height:300px;
+}
+.description{
+	font: 300 1.5em/1.5em 'Josefin Sans';
+	width:450px;
+	top:50%;
+	margin:0px;
+}
+}
+@media only screen and (min-width: 960px) and (max-width: 1050px) {
+.underline,.underline2,.underline3{
+	display:none;
+}
+
+.underline4{
+	position:relative;
+	left:46.42348649122807%;
+	display:inline-block;
+}
+.nav{
+	text-align:center;
+	flex-flow: column;
+	display:flex;
+	left:21.26754385964912%;
+}
+#slogan{
+	color:white;
+	font-size:100px;
+	font: 700 3em/1.5em 'Lato';
+	position:relative;
+	top:50%;
+	left:65%;
+	width:250px;
+	height:300px;
+	margin:5px;
+}
+.description{
+			border-right:1px white solid;
+	padding:50px;
+	width:300px;
+	top:50%;
+	margin:0px;
+}
+.box{
+	max-width:768px;
+}
+}
+
+
+
+
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+  	.underline,.underline2,.underline3{
+	display:none;
+}
+.underline4{
+	position:relative;
+	left:46.42348649122807%;
+	display:inline-block;
+}
+.nav{
+	text-align:center;
+	flex-flow: column;
+	display:flex;
+	left:21.26754385964912%;
+}
+#slogan{
+	color:white;
+	font-size:100px;
+	font: 700 3em/1.5em 'Lato';
+	position:relative;
+	top:50%;
+	left:65%;
+	width:250px;
+	height:300px;
+	margin:5px;
+}
+.description{
+		border-right:1px white solid;
+	padding:40px;
+	width:300px;
+	top:50%;
+	margin:0px;
+}
+.box{
+	max-width:768px;
+}
+
+  }
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+.underline,.underline2,.underline3{
+	display:none;
+}
+.underline4{
+	position:relative;
+	left:46.42348649122807%;
+	display:inline-block;
+}
+.nav{
+	text-align:center;
+	flex-flow: column;
+	display:flex;
+}
+#slogan{
+	color:white;
+	font-size:100px;
+	font: 700 2em/1.5em 'Lato';
+	position:relative;
+	top:55%;
+	left:65%;
+	width:150px;
+	height:200px;
+	margin:5px;
+}
+.description{
+	width:300px;
+	top:50%;
+	margin:0px;
+	border-right:1px white solid;
+	padding:10px;
+
+}
+.box{
+	max-width:768px;
+}
+body{
+	height:100%;
+	width:100%;
+	background-color:gainsboro;
+	background-image:url(mountains.jpg);
+	background-size:100% 115%;
+	background-repeat:no-repeat;
+	overflow-x: scroll;
+	margin:0;
+	padding:0;
+}
+}
+@media only screen and (max-width: 600px){
+#slogan{
+	font: 700 2em/1.5em 'Lato';
+		top:55%;
+	left:65%;
+	width:150px;
+	height:200px;
+	margin:5px;
+}
+.description{
+	font: 300 1.3em/1.5em 'Josefin Sans';
+	width:250px;
+	top:45%;
+	margin:0px;
+		border-right:1px white solid;
+	padding:10px;
+}
+.underline,.underline2,.underline3{
+	display:none;
+}
+.underline4{
+	position:relative;
+	left:46.42348649122807%;
+	display:inline-block;
+}
+.nav{
+	text-align:center;
+	flex-flow: column;
+	display:flex;
+}
+body{
+	height:100%;
+	width:100%;
+	background-color:gainsboro;
+	background-image:url(mountains.jpg);
+	background-size:100% 115%;
+	background-repeat:no-repeat;
+	overflow-x: scroll;
+	margin:0;
+	padding:0;
+}
+}
+@media only screen and (max-width: 525px){
+#slogan{
+	font: 700 2em/1.5em 'Lato';
+		top:55%;
+	left:65%;
+	width:150px;
+	height:200px;
+	margin:5px;
+}
+.description{
+	font: 300 1.3em/1.5em 'Josefin Sans';
+	width:250px;
+	top:50%;
+	margin:0px;
+		border-right:1px white solid;
+	padding:40px;
+}
+.underline,.underline2,.underline3{
+	display:none;
+}
+.underline4{
+	position:relative;
+	left:46.42348649122807%;
+	display:inline-block;
+}
+.nav{
+	text-align:center;
+	flex-flow: column;
+	display:flex;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+
+}
+@media only screen and (max-width: 500px){
+.description{
+	font: 300 1.3em/1.5em 'Josefin Sans';
+	width:250px;
+	top:50%;
+	margin:0px;
+	left:5%;
+		border-top:1px white solid;
+		border-right:0px;
+	padding:20px;
+}
+.underline,.underline2,.underline3{
+	display:none;
+}
+.underline4{
+	position:relative;
+	left:46.42348649122807%;
+	display:inline-block;
+}
+.nav{
+	text-align:center;
+	flex-flow: column;
+	display:flex;
+}
+body{
+	height:100%;
+	width:100%;
+	background-color:gainsboro;
+	background-image:url(mountains.jpg);
+	background-size:100% 125%;
+	background-repeat:no-repeat;
+	overflow-x: scroll;
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+}
+
+@media only screen and (max-width: 450px){
+	.nav{
+	width:200px;
+}
+.underline4{
+	position:relative;
+	left:61.82348649122807%;
+	display:inline-block;
+}
+	}
+	@media only screen and (max-width: 350px){
+	.nav{
+	width:180px;
+	left:-20.5%;
+	top:5%;
+}
+li{
+	padding:2px;
+}
+.underline4{
+	position:relative;
+	left:65.22348649122807%;
+	display:inline-block;
+}
+.description{
+	font: 300 1.2em/1.5em 'Josefin Sans';
+	width:200px;
+	top:50%;
+	margin:0px;
+		border-right:1px white solid;
+	padding:15px;
+}
+#icon{
+display:none;
+}
+
+	}
