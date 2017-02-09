@@ -10,6 +10,7 @@ body{
 	background-image:url(mountains.jpg);
 	background-size:100% 114%;
 	background-repeat:no-repeat;
+	background-attachment:fixed;
 	overflow-x: scroll;
 	margin:0;
 	padding:0;
