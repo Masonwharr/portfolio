@@ -114,6 +114,51 @@ ul{
 -ms-transform: translateY(-.5em);
 	transform:translateY(-.5em);
 }
+#workimg2{
+	border:2px solid grey;
+				-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+#workimg2:hover{
+		border:3px solid black;
+			-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+#workimg3{
+	border:2px solid grey;
+				-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+#workimg3:hover{
+		border:3px solid black;
+			-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+#workimg4{
+	border:2px solid grey;
+				-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+#workimg4:hover{
+		border:3px solid black;
+			-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
 .siteimgs{
 	display:block;
 	text-align:center;
@@ -131,12 +176,47 @@ ul{
 	margin-top:-100px;
 		font: 200 2em/1.5em 'Muli';
 }
+.siteimgs2{
+	text-align:center;
+		background-color:white;
+	width:200px;
+	float:left;
+	height:200px;
+	border-radius:5px;
+	margin-left:0px;
+	padding:0px;
+	display:inline-block;
+	cursor:pointer;
+	position:relative;
+		font: 200 2em/1.5em 'Muli';
+		padding:50px;
+		margin-bottom:100px;
+}
+.siteimgs4{
+	display:block;
+	text-align:center;
+		background-color:white;
+	width:200px;
+	float:left;
+	height:200px;
+	border-radius:5px;
+	margin-left:0px;
+	padding:0px;
+	display:inline-block;
+	cursor:pointer;
+	position:relative;
+	top:50%;
+	margin-top:-100px;
+		font: 200 2em/1.5em 'Muli';
+}
+
+
 #prowork{
 	position:relative;
 	float:left;
 	background-color:white;
 	width:100%;
-	height:700px;
+	height:800px;
 	margin:0px;
 	text-align:center;
 }
@@ -146,8 +226,9 @@ ul{
 	justify-content:center;
 	width:90%;
 padding:0px;
-height:500px;
+height:900px;
 left:4.5%;
+flex-flow:wrap;
 }
 #schoolwork{
 	position:relative;
@@ -155,7 +236,7 @@ left:4.5%;
 	border-top:5px solid lightgray;
 	background-color:white;
 	width:100%;
-	height:700px;
+	height:500px;
 	margin:0px;
 }
 #gallery2{
@@ -164,11 +245,11 @@ left:4.5%;
 	justify-content:center;
 	width:90%;
 padding:0px;
-height:500px;
+height:400px;
 left:4.5%;
 }
 
-.siteimgs2{
+.siteimgs4{
 	text-align:center;
 		background-color:white;
 	width:200px;
@@ -213,7 +294,7 @@ a{
 		#nav{
 				border-right:0px;
 		}
-		.siteimgs2{
+		.siteimgs4{
 			display:block;
 			clear:both;
 			margin-left:-102.5px;
@@ -233,8 +314,19 @@ ul{
 	top:15%;
 	}
 }
+	@media only screen and (max-width: 750px) {
+		#gallery{
+			height:1600px;
+		}
+		#prowork{
+			height:1700px;
+		}
+	}
 	@media only screen and (max-width: 375px) {
 		.siteimgs{
 			margin-left:-5%;
+		}
+		#gallery{
+			left:0%;
 		}
 		}

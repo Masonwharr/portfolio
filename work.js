@@ -2,7 +2,10 @@ $(document).ready(function(){
 		var windowSize = $(window).width();
 	var sites = document.getElementsByClassName('pro');
 		var projects = document.getElementsByClassName('school');
-				var link = document.getElementsByClassName('siteimgs');
+				var link1 = document.getElementById('work1');
+				var link2 = document.getElementById('work2');
+				var link3 = document.getElementById('work3');
+				var link4 = document.getElementById('work4');
 				var text = document.getElementsByClassName('paragraph');
 var appendedtext = document.getElementsByClassName('site');
 			var work = document.getElementById('prowork');
@@ -22,13 +25,41 @@ $(textbox).remove();
 $(text).remove();
 
 	}
-	$(link).mouseenter(function(){
+	$(link1).mouseenter(function(){
 $(this).append('<span class="site" align="center">' + 'Websitelance.com' + '</span>');
 	});
-		$(link).mouseleave(function(){
+		$(link1).mouseleave(function(){
 $(appendedtext).remove();
 	});
-		$(link).click(function(){
+		$(link1).click(function(){
 			window.open('http://www.websitelance.com');
 		});
+			$(link2).mouseenter(function(){
+$(this).append('<span class="site" align="center">' + 'Street Fighter Jquery Project' + '</span>');
+	});
+		$(link2).mouseleave(function(){
+$(appendedtext).remove();
+	});
+		$(link2).click(function(){
+			window.open('https://github.com/masonwharr/School-Projects/tree/master/ryu%20project');
+		});
+			$(link3).mouseenter(function(){
+$(this).append('<span class="site" align="center">' + 'Weather API Project' + '</span>');
+	});
+		$(link3).mouseleave(function(){
+$(appendedtext).remove();
+	});
+		$(link3).click(function(){
+			window.open('https://github.com/masonwharr/Capstone-School-Project/tree/master/weather');
+		});
+			$(link4).mouseenter(function(){
+$(this).append('<span class="site" align="center">' + 'Fizzbuzz Project' + '</span>');
+	});
+		$(link4).mouseleave(function(){
+$(appendedtext).remove();
+	});
+		$(link4).click(function(){
+			window.open('https://github.com/masonwharr/School-Projects/tree/master/Fizzbuzz%20Project');
+		});
+
 });
