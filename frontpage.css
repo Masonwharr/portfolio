@@ -61,7 +61,7 @@ font: 300 1.5em/1.5em 'Lato';
 	margin:0;
 }
 .description{
-	font: 300 1.2em/1.5em 'Josefin Sans';
+	font: 400 1.5em/1.5em 'Josefin Sans';
 	color:white;
 	position:absolute;
 	top:40%;
@@ -220,7 +220,7 @@ margin:0px;
 	margin:0;
 }
 .description{
-	font: 300 1.5em/1.5em 'Josefin Sans';
+	font: 400 1.5em/1.5em 'Josefin Sans';
 }
 }
 
@@ -296,7 +296,7 @@ margin:0px;
 	height:300px;
 }
 .description{
-	font: 300 1.5em/1.5em 'Josefin Sans';
+	font: 400 1.5em/1.5em 'Josefin Sans';
 	width:450px;
 	top:50%;
 	margin:0px;
@@ -442,7 +442,7 @@ body{
 	margin:5px;
 }
 .description{
-	font: 300 1.3em/1.5em 'Josefin Sans';
+	font: 400 1.3em/1.5em 'Josefin Sans';
 	width:250px;
 	top:45%;
 	margin:0px;
@@ -512,7 +512,7 @@ body{
 }
 @media only screen and (max-width: 500px){
 .description{
-	font: 300 1.3em/1.5em 'Josefin Sans';
+	font: 400 1.3em/1.5em 'Josefin Sans';
 	width:250px;
 	top:50%;
 	margin:0px;
@@ -577,7 +577,7 @@ li{
 	display:inline-block;
 }
 .description{
-	font: 300 1.2em/1.5em 'Josefin Sans';
+	font:400 1.2em/1.5em 'Josefin Sans';
 	width:200px;
 	top:50%;
 	margin:0px;
