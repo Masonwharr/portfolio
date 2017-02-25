@@ -355,15 +355,3 @@ li{
 	top:5%;
 }
 }
-@media all and (orientation:landscape){
-	#contactme{
-		top:225%;
-	}
-	.description{
-		top:40%;
-	}
-body{
-	background-size:100% 225%;
-	}
-}
-
