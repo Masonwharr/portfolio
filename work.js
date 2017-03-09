@@ -71,5 +71,4 @@ $(appendedtext).remove();
 		$(link5).click(function(){
 			window.open('https://github.com/masonwharr/School-Projects/tree/master/website');
 		});
-
 });
