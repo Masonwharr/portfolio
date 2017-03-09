@@ -6,6 +6,7 @@ $(document).ready(function(){
 				var link2 = document.getElementById('work2');
 				var link3 = document.getElementById('work3');
 				var link4 = document.getElementById('work4');
+	                        var link5 = document.getElementById('work5');
 				var text = document.getElementsByClassName('paragraph');
 var appendedtext = document.getElementsByClassName('site');
 			var work = document.getElementById('prowork');
