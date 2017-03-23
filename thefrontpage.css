@@ -355,4 +355,10 @@ li{
 #contactme{
 	top:5%;
 }
+	@media only screen and (min-aspect-ratio: 4/3) 
+{
+.description
+	{ top:45%;
+	
+	}
 }
