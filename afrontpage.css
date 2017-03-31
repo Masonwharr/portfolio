@@ -220,6 +220,9 @@ color:white;
 text-decoration:none;
 font: 400 1.4em/1.5em 'Changa One';
 }
+	.bodybg{
+		background-size:100% 115%;
+	}
 	.nav{
 		width:550px;
 		display:inline-block;
