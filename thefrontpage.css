@@ -5,10 +5,10 @@ html {
 	padding:0;
 }
 
-body{
+.bodybg{
 	height:100%;
 	width:100%;
-	background-color:#19323C;
+	background-color:#51545E;
 	background-image:url(illustration.png);
 	background-size:100% 100%;
 	background-repeat:no-repeat;
@@ -16,6 +16,35 @@ body{
 	margin:0;
 	padding:0;
 }
+.bodydark{
+	height:100%;
+	width:100%;
+	background-color:#51545E;
+	overflow-x: scroll;
+	margin:0;
+	padding:0;
+}
+.switch{
+	background-color:grey;
+	width:150px;
+	height:40px;
+	position:relative;
+	left:50%;
+	margin:5px;
+	margin-left:-75px;
+	top:-8%;
+	cursor:pointer;
+	color:white;
+	border-radius:5px;
+	font: 300 1.0em/1.5em 'Lato';
+			-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.modebutton{
+	top:50%;
+}
+
 
 .container{
 	max-width:1400px;
@@ -35,6 +64,15 @@ left:50%;
 	padding:0px;
 	position:relative;
 	background-color:#6A08F6;
+	border-bottom:solid 1px black;
+}
+.navbardark{
+	width:100%;
+	height:95px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	background-color:#25283D;
 	border-bottom:solid 1px black;
 }
 a{
@@ -88,9 +126,23 @@ font: 400 2.0em/1.5em 'Changa One';
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	margin-left:-370px;
 }
+.descriptiondark{
+	color:white;
+	position:absolute;
+	top:30%;
+	left:50%;
+	width:650px;
+	height:375px;
+	padding:40px;
+	background-color:#25283D;
+		-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-left:-370px;
+}
 #intro{
 	position:relative;
-	top:1%;
+	top:-4%;
 }
 #welcome{
 	font: 400 1.8em/1.5em 'Changa One';	
@@ -185,7 +237,7 @@ li{
 }
 
 .description{
-		font: 300 1.4em/1.5em 'Josefin Sans';
+		font: 300 1.20em/1.5em 'Josefin Sans';
 	width:425px;
 	margin-left:-252.5px;
 }
@@ -215,7 +267,7 @@ li{
 }
 
 .description{
-	font: 300 1.4em/1.5em 'Josefin Sans';
+	font: 300 1.2em/1.5em 'Josefin Sans';
 	width:425px;
 	margin-left:-252.5px;
 }
