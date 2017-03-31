@@ -223,10 +223,10 @@ font: 400 1.4em/1.5em 'Changa One';
 }
 	#contactme{
 		top:90%;
-		margin-bottom:50px;
+		margin-bottom:30px;
 	}
 	.bodybg{
-		background-size:100% 120%;
+		background-size:100% 125%;
 	}
 	.nav{
 		width:550px;
