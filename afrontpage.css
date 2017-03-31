@@ -213,7 +213,7 @@ font: 400 2.0em/1.5em 'Changa One';
 .description{
 	font: 300 1.5em/1.5em 'Josefin Sans';
 }
-@media only screen and (max-width:1010px){
+@media only screen and (max-width:1050px){
 
 .a1,.a2{
 color:white;
