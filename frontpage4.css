@@ -10,7 +10,7 @@ html {
 	width:100%;
 	background-color:#51545E;
 	background-image:url(illustration.png);
-	background-size:100% 170%;
+	background-size:100% 175%;
 	background-repeat:no-repeat;
 	overflow-x: scroll;
 	margin:0;
@@ -295,7 +295,7 @@ font: 400 1.4em/1.5em 'Changa One';
 		margin-bottom:30px;
 	}
 	.bodybg{
-		background-size:100% 135%;
+		background-size:100% 140%;
 	}
 	.nav{
 		width:550px;
