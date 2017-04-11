@@ -482,6 +482,9 @@ li{
 	padding:10px;
 	width:45px;
 }
+.jsone,.jstwo,.jsthree {
+height:875px;
+}
 
 .description{
 	font: 300 0.9em/1.5em 'Josefin Sans';
