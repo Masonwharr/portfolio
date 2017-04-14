@@ -206,7 +206,8 @@ ul{
 	.frontpage{
 		right:75px;
 	}
-
+.social,.social2 { margin-left:-40px;
+}
 }
 @media only screen and (max-width:575px) {
 	.question{
