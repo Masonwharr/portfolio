@@ -80,10 +80,8 @@ ul{
 .profiles{
 	top:55%;
 	float:left;
-	padding:10px;
 	font: 300 1.5em/1.5em 'Lato';
 	text-align:center;
-	margin-left:-1.85714285714286%;
 	margin-bottom:50px;
 	width:500px;
 	height:300px;
@@ -104,7 +102,8 @@ ul{
 }
 .social{
 	position:absolute;
-	left:40%;
+	left:50%;
+	margin-left:-50px;
 	top:30%;
 	margin:0px;
 	padding:0px;
@@ -122,7 +121,8 @@ ul{
 }
 .social2{
 	position:absolute;
-	left:40%;
+	left:50%;
+	margin-left:-50px;
 	top:40%;
 	margin:0px;
 	padding:0px;
@@ -190,9 +190,6 @@ ul{
 		font: 400 4em/1.5em 'Changa One';
 		width:425px;
 	}
-	.social2, .social{
-		left:40%;
-	}
 	#profilebox{
 		width:410px;
 	}
@@ -227,9 +224,6 @@ ul{
 		width:100%;
 		float:none;
 	}
-	.social2, .social{
-		left:40%;
-	}
 	.profiles{
 		border-radius:0px;
 		width:100%;
@@ -256,9 +250,6 @@ ul{
 		margin-left:-98.5px;
 		font: 400 2.4em/1.5em 'Changa One';
 		width:200px;
-	}
-	.social2, .social{
-		left:30%;
 	}
 	.offer{
 	font: 700 1.0em/1.5em 'Lato';
