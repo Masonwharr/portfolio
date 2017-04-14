@@ -190,8 +190,8 @@ ul{
 		font: 400 4em/1.5em 'Changa One';
 		width:425px;
 	}
-	.social2{
-		left:35%;
+	.social2, .social{
+		left:30%;
 	}
 	#profilebox{
 		width:410px;
@@ -227,6 +227,9 @@ ul{
 		width:100%;
 		float:none;
 	}
+	.social2, .social{
+		left:30%;
+	}
 	.profiles{
 		border-radius:0px;
 		width:90%;
@@ -253,6 +256,9 @@ ul{
 		margin-left:-78.5px;
 		font: 400 2.4em/1.5em 'Changa One';
 		width:200px;
+	}
+	.social2, .social{
+		left:30%;
 	}
 	.offer{
 	font: 700 1.0em/1.5em 'Lato';
