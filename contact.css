@@ -227,7 +227,7 @@ ul{
 	.profiles{
 		border-radius:0px;
 		width:100%;
-		margin-left:80px;
+		margin-left:50px;
 		height:425px;
 		margin-left:0px;
 		float:none;
@@ -247,7 +247,7 @@ ul{
 }
 @media only screen and (max-width:375px) {
 		.question{
-		margin-left:-98.5px;
+		margin-left:-78.5px;
 		font: 400 2.4em/1.5em 'Changa One';
 		width:200px;
 	}
