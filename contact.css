@@ -103,7 +103,7 @@ ul{
 .social{
 	position:absolute;
 	left:50%;
-	margin-left:-50px;
+	margin-left:-100px;
 	top:30%;
 	padding:0px;
 		-webkit-transition: .5s ease-in-out;
@@ -121,7 +121,7 @@ ul{
 .social2{
 	position:absolute;
 	left:50%;
-	margin-left:-50px;
+	margin-left:-100px;
 	top:40%;
 	padding:0px;
 	-webkit-transition: .5s ease-in-out;
