@@ -103,7 +103,7 @@ ul{
 .social{
 	position:absolute;
 	left:50%;
-	margin-left:-100px;
+	margin-left:-50px;
 	top:30%;
 	padding:0px;
 		-webkit-transition: .5s ease-in-out;
@@ -121,7 +121,7 @@ ul{
 .social2{
 	position:absolute;
 	left:50%;
-	margin-left:-100px;
+	margin-left:-50px;
 	top:40%;
 	padding:0px;
 	-webkit-transition: .5s ease-in-out;
@@ -152,8 +152,9 @@ ul{
 }
 .social3{
 	position:absolute;
-	left:40%;
+	left:50%;
 	top:62.5%;
+	margin-left:-50px;
 	margin:0px;
 	padding:0px;
 		-webkit-transition: .5s ease-in-out;
@@ -163,7 +164,8 @@ ul{
 }
 .social4{
 	position:absolute;
-	left:40%;
+	left:50%;
+	margin-left:-50px;
 	top:72.5%;
 	margin:0px;
 	padding:0px;
