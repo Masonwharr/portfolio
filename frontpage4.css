@@ -23,7 +23,7 @@ html {
 	overflow-x: scroll;
 	margin:0;
 	padding:0;
-	radial-gradient(ellipse at center, #232122 30%, #000000 80%)
+	background:radial-gradient(ellipse at center, #232122 30%, #000000 80%)
 }
 .switch{
 	background-color:grey;
