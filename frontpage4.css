@@ -296,7 +296,7 @@ text-decoration:none;
 font: 400 1.4em/1.5em 'Changa One';
 }
 	#intro{
-		top:-5.5%;
+		top:-10.5%;
 	}
 	#contactme{
 		top:90%;
@@ -370,7 +370,10 @@ li{
 }
 }
 @media only screen and (max-width:550px){
-
+#welcome{
+	position:relative;
+	top:-5.5%;
+}
 .a1,.a2{
 color:white;
 text-decoration:none;
@@ -400,7 +403,10 @@ li{
 }
 
 @media only screen and (max-width:475px){
-
+#welcome{
+	position:relative;
+	top:-5.5%;
+}
 .a1,.a2{
 color:white;
 text-decoration:none;
