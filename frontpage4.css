@@ -261,6 +261,10 @@ font: 400 2.0em/1.5em 'Changa One';
 	color:white;
 	margin:0px;
 }
+#welcome{
+	position:relative;
+	top:-4%;
+}
 .around{
 	position:relative;
 	left:140px;
@@ -291,6 +295,9 @@ color:white;
 text-decoration:none;
 font: 400 1.4em/1.5em 'Changa One';
 }
+	#intro{
+		top:-5.5%;
+	}
 	#contactme{
 		top:90%;
 		margin-bottom:30px;
