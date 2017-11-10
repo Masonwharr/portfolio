@@ -150,6 +150,20 @@ ul{
 -ms-transform: translateY(-.5em);
 	transform:translateY(-.5em);
 }
+.social5:hover{
+	-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
+.social6:hover{
+	-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
 .social3{
 	position:absolute;
 	left:50%;
@@ -166,6 +180,30 @@ ul{
 	position:absolute;
 	left:50%;
 	margin-left:-50px;
+	top:72.5%;
+	margin:0px;
+	padding:0px;
+		-webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+		transition:.5s ease-in-out;
+}
+.social5{
+	position:absolute;
+	left:50%;
+	top:62.5%;
+	margin-left:-90px;
+	margin:0px;
+	padding:0px;
+		-webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+		transition:.5s ease-in-out;
+}
+.social6{
+	position:absolute;
+	left:50%;
+	margin-left:-90px;
 	top:72.5%;
 	margin:0px;
 	padding:0px;
