@@ -72,6 +72,9 @@ $(appendedtext).remove();
 		$(link5).click(function(){
 			window.open('https://github.com/masonwharr/School-Projects/tree/master/website');
 		});
+	$(link6).mouseenter(function(){
+$(this).append('<span class="site" align="center">' + 'Bootstrap Concept' + '</span>');
+	});
 	
 		$(link6).mouseleave(function(){
 $(appendedtext).remove();
