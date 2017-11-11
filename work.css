@@ -347,6 +347,9 @@ a{
 		.paragraph{
 	font: 300 1.8.0em/1.5em 'Lato';
 }
+		#prowork{
+			height:1300px;
+		}
 
 		}
 	@media only screen and (max-width: 1050px) {
