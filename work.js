@@ -8,6 +8,7 @@ $(document).ready(function(){
 				var link4 = document.getElementById('work4');
 	                        var link5 = document.getElementById('work5');
 	                        var link6 = document.getElementById('work6');
+	                        var link7 = document.getElementById('work7');
 				var text = document.getElementsByClassName('paragraph');
 var appendedtext = document.getElementsByClassName('site');
 			var work = document.getElementById('prowork');
@@ -81,5 +82,15 @@ $(appendedtext).remove();
 	});
 		$(link6).click(function(){
 			window.open('https://github.com/masonwharr/Bootstrapconcept3');
+		});
+		$(link7).mouseenter(function(){
+$(this).append('<span class="site" align="center">' + 'Bootstrap What I Like app' + '</span>');
+	});
+	
+		$(link7).mouseleave(function(){
+$(appendedtext).remove();
+	});
+		$(link7).click(function(){
+			window.open('https://github.com/masonwharr/bootstrapproject');
 		});
 });
