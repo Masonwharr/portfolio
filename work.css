@@ -408,6 +408,14 @@ ul{
 			height:3000px;
 		}
 }
+@media only screen and (max-width: 690px) {
+		#gallery{
+			height:1600px;
+		}
+		#prowork{
+			height:3250px;
+		}
+}
 	@media only screen and (max-width: 375px) {
 		.siteimgs{
 			margin-left:-5%;
