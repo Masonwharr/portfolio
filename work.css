@@ -219,6 +219,21 @@ ul{
 -ms-transform: translateY(-.5em);
 	transform:translateY(-.5em);
 }
+#workimg9{
+	border:2px solid grey;
+				-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+#workimg9:hover{
+		border:3px solid black;
+			-webkit-transform: translateY(-.5em);
+    -moz-transform: translateY(-.5em);
+    -o-transform: translateY(-.5em);
+-ms-transform: translateY(-.5em);
+	transform:translateY(-.5em);
+}
 .siteimgs{
 	display:block;
 	text-align:center;
