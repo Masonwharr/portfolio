@@ -415,6 +415,12 @@ ul{
 			height:1875px;
 		}
 	}
+@media only screen and (max-width: 1017px) {
+		#prowork{
+			height:2000px;
+		}
+
+		}
 	@media only screen and (max-width: 750px) {
 		#gallery{
 			height:1600px;
