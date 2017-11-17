@@ -10,6 +10,7 @@ $(document).ready(function(){
 	                        var link6 = document.getElementById('work6');
 	                        var link7 = document.getElementById('work7');
 	var link8 = document.getElementById('work8');
+	var link9 = document.getElementById('work9');
 				var text = document.getElementsByClassName('paragraph');
 var appendedtext = document.getElementsByClassName('site');
 			var work = document.getElementById('prowork');
@@ -103,5 +104,15 @@ $(appendedtext).remove();
 	});
 		$(link8).click(function(){
 			window.open('https://github.com/masonwharr/Projects/tree/master/Shopping-List');
+		});
+				$(link9).mouseenter(function(){
+$(this).append('<span class="site" align="center">' + 'React Meal Picker App' + '</span>');
+	});
+	
+		$(link9).mouseleave(function(){
+$(appendedtext).remove();
+	});
+		$(link9).click(function(){
+			window.open('https://codepen.io/Masonwharr/full/dZZNQo/');
 		});
 });
