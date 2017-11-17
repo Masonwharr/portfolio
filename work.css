@@ -412,7 +412,7 @@ ul{
 			height:1100px;
 		}
 		#prowork{
-			height:2150px;
+			height:2000px;
 		}
 	}
 	@media only screen and (max-width: 750px) {
@@ -420,7 +420,7 @@ ul{
 			height:1600px;
 		}
 		#prowork{
-			height:2800px;
+			height:2675px;
 		}
 }
 @media only screen and (max-width: 690px) {
