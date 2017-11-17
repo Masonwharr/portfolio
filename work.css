@@ -378,7 +378,7 @@ a{
 	font: 300 1.8.0em/1.5em 'Lato';
 }
 		#prowork{
-			height:1300px;
+			height:1500px;
 		}
 
 		}
@@ -412,7 +412,7 @@ ul{
 			height:1100px;
 		}
 		#prowork{
-			height:1850px;
+			height:2000px;
 		}
 	}
 	@media only screen and (max-width: 750px) {
@@ -420,7 +420,7 @@ ul{
 			height:1600px;
 		}
 		#prowork{
-			height:2850px;
+			height:2950px;
 		}
 }
 @media only screen and (max-width: 690px) {
@@ -428,7 +428,7 @@ ul{
 			height:1600px;
 		}
 		#prowork{
-			height:3250px;
+			height:3350px;
 		}
 }
 	@media only screen and (max-width: 375px) {
