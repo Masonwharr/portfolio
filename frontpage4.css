@@ -9,7 +9,7 @@ html {
 	height:100%;
 	width:100%;
 	background-color:#51545E;
-	background-image:url(illustration.png);
+	background-image:url(https://images.unsplash.com/photo-1504771646146-67b39393c67b?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
 	background-size:100% 175%;
 	background-repeat:no-repeat;
 	overflow-x: scroll;
@@ -133,7 +133,7 @@ background-color:#24292e;
 	margin:0px;
 	padding:0px;
 	position:relative;
-	background-color:#6A08F6;
+	background-color:#3b3a36;
 	border-bottom:solid 1px black;
 }
 .navbardark{
