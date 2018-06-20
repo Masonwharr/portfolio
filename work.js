@@ -113,6 +113,6 @@ $(this).append('<span class="site" align="center">' + 'React Meal Picker App' + 
 $(appendedtext).remove();
 	});
 		$(link9).click(function(){
-			window.open('https://codepen.io/Masonwharr/full/dZZNQo/');
+			window.open('https://codepen.io/Masonwharr/pen/MXagxG');
 		});
 });
